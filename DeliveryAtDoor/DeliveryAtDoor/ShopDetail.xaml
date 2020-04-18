@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" x:Name="shopDetail" BackgroundImageSource="confect.png"
+             mc:Ignorable="d" x:Name="shopDetail" BackgroundImageSource="bg3.png"
              x:Class="DeliveryAtDoor.ShopDetail">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand"
@@ -35,7 +35,7 @@
                         </ContentView>
                         <ContentView HorizontalOptions="FillAndExpand"
                         VerticalOptions="FillAndExpand" Grid.Row="0" Grid.Column="1">
-                            <Image Source="whatsapp.png" Grid.Row="0" Grid.Column="1" IsVisible="{Binding IsWhatsApp2}" HeightRequest="40" WidthRequest="80" />
+                            <Image Source="whatsapp.png" Grid.Row="0" Grid.Column="1" IsVisible="{Binding IsWhatsApp1}" HeightRequest="40" WidthRequest="80" />
                             <ContentView.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2"/>
                             </ContentView.GestureRecognizers>
