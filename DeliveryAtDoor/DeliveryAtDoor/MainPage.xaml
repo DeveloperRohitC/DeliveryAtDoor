@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DeliveryAtDoor.MainPage">
+
+    <StackLayout>
+        <Image Source="icon.png" HeightRequest="150" WidthRequest="150" 
+               FlexLayout.AlignSelf="Center" Margin="0,50,0,0"/>
+
+        <!--<Label Text="Welcome" 
+           HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"
+           VerticalOptions="StartAndExpand" Margin="0,60,0,0" BackgroundColor="Beige"
+              Padding="10,0,10,0" FontSize="30" />
+        <Label Text="to" 
+           HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"
+           VerticalOptions="StartAndExpand" Margin="0,-50,0,0" BackgroundColor="Beige"
+              Padding="10,0,10,0" FontSize="30" />-->
+        <Label Text="Welcome to Delivery@Door!" 
+           HorizontalOptions="Center" TextColor="Black" FontAttributes="Bold"
+           VerticalOptions="StartAndExpand" Margin="0,50,0,50" BackgroundColor="Beige"
+               Padding="10,0,10,0" FontSize="24" />
+
+        <Image Source="corona2.png" HeightRequest="200" WidthRequest="350" Margin="0,-50,0,0"
+               FlexLayout.AlignSelf="Auto" BackgroundColor="Transparent" />
+
+        <Button Text="Click to Order items !"
+                HorizontalOptions="Center" Margin="0,0,0,20"
+                VerticalOptions="EndAndExpand" FontAttributes="Bold" FontSize="22"
+                x:Name="btnOrder" WidthRequest="300"
+                Clicked="btnOrder_Clicked" BackgroundColor="#649eff" TextColor="FloralWhite"
+                ></Button>
+    </StackLayout>
+
+</ContentPage>
