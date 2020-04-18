@@ -3,9 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" x:Name="shopList" Title="Shops List" BackgroundImageSource="bg3.png"
+             mc:Ignorable="d" x:Name="shopList" BackgroundImageSource="bg3.png"
              x:Class="DeliveryAtDoor.ShopList">
     <ContentPage.Content>
+        <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <ListView x:Name="listShops" ItemTapped="listShops_ItemTapped"
                    HasUnevenRows="true"
                    SeparatorVisibility="None">
@@ -40,5 +41,6 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
