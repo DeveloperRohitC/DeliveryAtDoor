@@ -41,14 +41,6 @@
            HorizontalOptions="Fill" TextColor="Red" FontAttributes="Bold" Margin="10,0,10,0" Padding="10"
            VerticalOptions="StartAndExpand" BackgroundColor="Beige" FontSize="22" />
 
-            <Label Text="Min Order  ₹ 200.00 /- [For Grocery]" 
-           HorizontalOptions="Fill" TextColor="Red" FontAttributes="Bold" Margin="10,-20,10,0" Padding="10" 
-           VerticalOptions="StartAndExpand" BackgroundColor="Beige" FontSize="18" />
-
-            <Label Text="Min Order  ₹ 100.00 /- [For Confectionary]" 
-           HorizontalOptions="Fill" TextColor="Red" FontAttributes="Bold" Margin="10,-20,10,0" Padding="10" 
-           VerticalOptions="StartAndExpand" BackgroundColor="Beige" FontSize="18" />
-
             <Button Text="Get Shop"
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
