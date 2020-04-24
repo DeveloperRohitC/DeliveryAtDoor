@@ -43,7 +43,7 @@ namespace DeliveryAtDoor
         private async void listShops_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             Shop _shop = e.Item as Shop;
-            await Navigation.PushAsync(new ShopDetail(_shop));
+            await Navigation.PushAsync(new ShopDetails(_shop));
         }
     }
 }

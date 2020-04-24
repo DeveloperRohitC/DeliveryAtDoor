@@ -19,6 +19,8 @@ namespace DeliveryAtDoor
         public string Landmark { get; set; }
         public string Address { get; set; }
         public string Area { get; set; }
+        public string MinOrder { get; set; }
+        public string Rating { get; set; }
         public string Mobile1 { get; set; }
         public bool IsWhatsApp1 { get; set; }
         public string Mobile2 { get; set; }

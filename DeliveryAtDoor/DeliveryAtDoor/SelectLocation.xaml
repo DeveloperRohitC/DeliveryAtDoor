@@ -29,7 +29,7 @@
                 VerticalOptions = "CenterAndExpand">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Grocery Shop</x:String>
+                        <x:String>Grocery Shop (किराने की दुकान)</x:String>
                         <x:String>Confectionary Shop</x:String>
                         <!--<x:String>Medical + Sanitizer + Mask</x:String>-->
                         <!--<x:String>Vegetables Shop</x:String>-->

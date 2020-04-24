@@ -11,11 +11,11 @@ using Xamarin.Forms.Xaml;
 namespace DeliveryAtDoor
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ShopDetail : ContentPage
+    public partial class ShopDetails : ContentPage
     {
         ExceptionEmail email = new ExceptionEmail();
         Shop _shop;
-        public ShopDetail(Shop shop)
+        public ShopDetails(Shop shop)
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);

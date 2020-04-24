@@ -102,9 +102,6 @@
     <AndroidResource Include="Resources\drawable\confect.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\corona2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\grocery.png" />
   </ItemGroup>
   <ItemGroup>

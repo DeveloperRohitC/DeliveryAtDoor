@@ -28,15 +28,21 @@
                                    VerticalOptions="CenterAndExpand"
                                    Aspect="AspectFill"
                                    WidthRequest="100"
-                                   Grid.RowSpan="2"
+                                   Grid.RowSpan="3"
                                    Source="{Binding Image}"/>
                             <Label Grid.Column="1" FontAttributes="Bold" TextColor="Black" FontSize="26"
                                    Text="{Binding ShopName}" VerticalOptions="End" LineBreakMode="TailTruncation"/>
-                            <Label Grid.Column="1"
+                            
+                                <Label Grid.Column="1"
                                    Grid.Row="1"
                                    VerticalOptions="Start"
-                                   Text="{Binding Address}" FontSize="22"/>
-                        </Grid>
+                                   Text="{Binding MinOrder}" FontSize="18"/>
+                                <Label Grid.Column="1"
+                                   Grid.Row="2"
+                                   VerticalOptions="Start"
+                                   Text="Rating : 4.5 / 5" FontSize="18"/>
+
+                            </Grid>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
